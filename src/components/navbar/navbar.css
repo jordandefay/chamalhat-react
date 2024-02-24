@@ -1,0 +1,63 @@
+.chamalhat__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.chamalhat__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.chamalhat__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.chamalhat__navbar-links_logo img {
+    width: 62.56px;
+    height: 16.02px;
+}
+
+.chamalhat__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.chamalhat__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.chamalhat__navbar-links_container p,
+.chamalhat__navbar-sign p,
+.chamalhat__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.chamalhat__navbar-sign button,
+.chamalhat__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
